@@ -5,8 +5,7 @@ import jakarta.validation.constraints.*;
 import lombok.*;
 
 
-// Lombok genera automáticamente getters y setters.
-// Entidad JPA que representa la tabla de usuarios.
+
 @Entity
 @Table(name = "usuarios")
 @Getter
