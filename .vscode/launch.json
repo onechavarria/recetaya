@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcUsuarioApplication<msvc-usuario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.recetaya.usuario.MsvcUsuarioApplication",
+            "projectName": "msvc-usuario",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcRecetaApplication<msvc-receta>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.recetaya.receta.MsvcRecetaApplication",
+            "projectName": "msvc-receta",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcInventarioApplication<msvc-inventario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.recetaya.inventario.MsvcInventarioApplication",
+            "projectName": "msvc-inventario",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcDispensacionApplication<msvc-dispensacion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.recetaya.dispensacion.MsvcDispensacionApplication",
+            "projectName": "msvc-dispensacion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
